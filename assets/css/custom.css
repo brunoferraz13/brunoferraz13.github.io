@@ -1,0 +1,103 @@
+.padding {
+    padding-right: 8.5rem !important;
+    padding-left: 8.5rem !important;
+    padding-bottom: 1rem!important;
+    padding-top: 1rem!important;
+}
+
+.languageIcon {
+    width: 50px !important;
+}
+
+.centerText {
+    text-align: center !important;
+}
+
+.navbar-item.is-active {
+    text-decoration: underline !important;
+}
+
+.navbarMargin {
+    margin-top: 84px !important;
+}
+
+.centerImage {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.heroSectionMarginTop {
+    padding: 0px! important;
+}
+
+.burgerMarginTop {
+    margin-top: 0.5rem;
+    margin-right: 1.1rem;
+}
+
+.justify {
+    text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+    .padding {
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+        padding-bottom: 1rem!important;
+        padding-top: 1rem!important;
+    }
+    .margin {
+        margin-right: 1.1rem;
+        margin-left: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .columns.is-vcentered {
+        align-items: unset;
+    }
+}
+
+.vertical {
+    overflow-y: scroll;
+    /* Add the ability to scroll */
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+.vertical::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+.vertical {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.hiddenScroll {
+    overflow-y: none;
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+.hiddenScroll::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+.hiddenScroll {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
