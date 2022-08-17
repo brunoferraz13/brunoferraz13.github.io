@@ -101,3 +101,11 @@
     scrollbar-width: none;
     /* Firefox */
 }
+
+.marginTop80 {
+    margin-top: 80px;
+}
+
+.maxHeight76 {
+    max-height: 76vh
+}
