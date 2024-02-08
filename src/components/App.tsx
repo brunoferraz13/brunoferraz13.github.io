@@ -15,7 +15,7 @@ function App() {
       <Navbar/>
 
       <Route exact={true} path="/" component={Home}></Route>
-      <Route path="/contacts" component={Contacts}></Route>
+      <Route exact={true} path="/contacts" component={Contacts}></Route>
 
       <Footer/>
     </>

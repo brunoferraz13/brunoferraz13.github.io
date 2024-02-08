@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 
 import logo from '../../assets/logo.png';
 import ic_pt from '../../assets/pt.svg';
@@ -51,6 +52,9 @@ const Navbar = () => (
                 <a className="navbar-item" href="./source/pt/contactos.html">
                     Contactos
                 </a>
+                {/* <Link className="navbar-item" to="/contacts">
+                    Contactos
+                </Link> */}
 
             </div>
 
